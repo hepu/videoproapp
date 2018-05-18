@@ -12,7 +12,7 @@
 
 <p>
   <strong>Url:</strong>
-  <%= @video.url %>
+  <%= image_tag @video.url.preview(resize_to_limit: [100, 100]) %>
 </p>
 
 <%= link_to 'Edit', edit_video_path(@video) %> |

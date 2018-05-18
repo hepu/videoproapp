@@ -19,6 +19,12 @@ gem 'uglifier', '>= 1.3.0'
 # Database Postgres
 gem 'pg'
 
+# Video preview
+gem 'ffmpeg'
+
+# S3 Gem
+gem "aws-sdk-s3", require: false
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
