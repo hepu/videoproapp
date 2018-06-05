@@ -14,7 +14,7 @@ development:
   <<: *default
   host: localhost
   port: 5432
-  username: videoapp_user
+  username: iwdev
   password: '12345'
   database: videoapp_db
 
